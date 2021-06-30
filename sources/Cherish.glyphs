@@ -101942,7 +101942,7 @@ interpolationWeight = 400;
 instanceInterpolations = {
 "E8487A59-2E36-4739-8DF2-414A9818920F" = 1;
 };
-name = ROB;
+name = Regular;
 weightClass = Normal;
 }
 );
