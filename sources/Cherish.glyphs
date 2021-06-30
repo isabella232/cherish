@@ -1,7 +1,10 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"A/Omega B"
+"abcdefghijklmno\012pqrstuvwxyz",
+"ABCDEFGHIJKLMN\012OPQRSTUVWXYZ",
+dfhkl,
+"/Scedilla f¶gjpqy"
 );
 copyright = "Copyright 2004-2021 The Cherish Project Authors (https://github.com/googlefonts/cherish)";
 customParameters = (
@@ -61,7 +64,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012";
+code = "feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature calt;\012";
 name = aalt;
 },
 {
@@ -71,7 +74,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -103,18 +106,18 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{667, 15}",
-"{583, 45}",
-"{328, 17}",
-"{-58, -16}",
+"{660, 10}",
+"{600, 10}",
+"{330, 10}",
+"{0, -16}",
 "{-308, -8}"
 );
-ascender = 681;
-capHeight = 735;
+ascender = 660;
+capHeight = 600;
 customParameters = (
 {
 name = typoAscender;
-value = 681;
+value = 850;
 },
 {
 name = typoDescender;
@@ -125,20 +128,24 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 681;
-},
-{
-name = winDescent;
-value = 320;
-},
-{
 name = hheaAscender;
-value = 681;
+value = 850;
 },
 {
 name = hheaDescender;
 value = -320;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 935;
+},
+{
+name = winDescent;
+value = -350;
 },
 {
 name = strikeoutPosition;
@@ -157,7 +164,15 @@ name = underlineThickness;
 value = 20;
 }
 );
-descender = -320;
+descender = -308;
+guideLines = (
+{
+position = "{-750, 328}";
+},
+{
+position = "{863, 600}";
+}
+);
 horizontalStems = (
 7,
 20,
@@ -177,7 +192,7 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 434;
+xHeight = 330;
 }
 );
 glyphs = (
@@ -276,20 +291,21 @@ unicode = 0020;
 {
 color = 3;
 glyphname = nbspace;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:33:31 +0000";
 layers = (
 {
 layerId = "E8487A59-2E36-4739-8DF2-414A9818920F";
 width = 182;
 }
 );
+widthMetricsKey = space;
 note = nbspace;
 unicode = 00A0;
 },
 {
 color = 3;
 glyphname = A;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:37:04 +0000";
 layers = (
 {
 hints = (
@@ -368,7 +384,7 @@ nodes = (
 "461 615 OFFCURVE",
 "443 599 CURVE",
 "442 599 LINE SMOOTH",
-"416 602 OFFCURVE",
+"416 599 OFFCURVE",
 "333 561 OFFCURVE",
 "307 553 CURVE",
 "305 551 OFFCURVE",
@@ -398,7 +414,7 @@ nodes = (
 "706 605 CURVE SMOOTH",
 "723 605 LINE",
 "694 571 LINE SMOOTH",
-"681 557 OFFCURVE",
+"682 556 OFFCURVE",
 "671 543 OFFCURVE",
 "659 529 CURVE SMOOTH",
 "652 521 OFFCURVE",
@@ -445,7 +461,7 @@ nodes = (
 "328 203 CURVE SMOOTH",
 "330 203 LINE",
 "302 179 OFFCURVE",
-"299 164 OFFCURVE",
+"298 165 OFFCURVE",
 "267 138 CURVE SMOOTH",
 "156 42 LINE SMOOTH",
 "78 -25 OFFCURVE",
@@ -489,11 +505,11 @@ nodes = (
 "-397 -164 OFFCURVE",
 "-396 -169 CURVE",
 "-386 -175 LINE SMOOTH",
-"-379 -180 OFFCURVE",
+"-379 -179 OFFCURVE",
 "-371 -183 OFFCURVE",
 "-362 -186 CURVE SMOOTH",
 "-359 -187 OFFCURVE",
-"-357 -189 OFFCURVE",
+"-357 -188 OFFCURVE",
 "-354 -188 CURVE SMOOTH",
 "-353 -188 LINE",
 "-347 -190 LINE SMOOTH",
@@ -541,7 +557,7 @@ nodes = (
 "285 119 LINE",
 "301 134 LINE",
 "315 145 LINE SMOOTH",
-"328 154 OFFCURVE",
+"327 155 OFFCURVE",
 "338 166 OFFCURVE",
 "350 176 CURVE SMOOTH",
 "374 196 LINE SMOOTH",
@@ -557,7 +573,7 @@ nodes = (
 "516 224 OFFCURVE",
 "518 224 CURVE SMOOTH",
 "519 224 LINE SMOOTH",
-"526 225 OFFCURVE",
+"526 224 OFFCURVE",
 "541 225 OFFCURVE",
 "556 225 CURVE",
 "558 213 OFFCURVE",
@@ -567,7 +583,7 @@ nodes = (
 "540 167 OFFCURVE",
 "535 159 CURVE",
 "536 152 LINE SMOOTH",
-"536 144 OFFCURVE",
+"537 144 OFFCURVE",
 "526 113 OFFCURVE",
 "528 104 CURVE",
 "528 102 OFFCURVE",
@@ -722,7 +738,7 @@ nodes = (
 "441 252 LINE",
 "470 284 LINE",
 "475 291 LINE SMOOTH",
-"480 296 OFFCURVE",
+"479 297 OFFCURVE",
 "488 300 OFFCURVE",
 "493 304 CURVE",
 "652 467 LINE SMOOTH",
@@ -43890,7 +43906,7 @@ unicode = 0062;
 {
 color = 3;
 glyphname = c;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:34:47 +0000";
 layers = (
 {
 hints = (
@@ -53053,9 +53069,14 @@ unicode = 0138;
 {
 color = 3;
 glyphname = l;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:39:18 +0000";
 layers = (
 {
+guideLines = (
+{
+position = "{354, 660}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -53077,14 +53098,17 @@ nodes = (
 "516 609 OFFCURVE",
 "498 627 OFFCURVE",
 "496 638 CURVE SMOOTH",
-"490 664 OFFCURVE",
-"472 671 OFFCURVE",
+"491 658 OFFCURVE",
+"479 667 OFFCURVE",
+"466 667 CURVE SMOOTH",
+"463 667 OFFCURVE",
+"459 666 OFFCURVE",
 "455 665 CURVE SMOOTH",
 "451 663 OFFCURVE",
 "435 645 OFFCURVE",
 "417 636 CURVE",
 "272 483 OFFCURVE",
-"198 366 OFFCURVE",
+"197 367 OFFCURVE",
 "161 322 CURVE SMOOTH",
 "117 266 LINE",
 "101 249 LINE SMOOTH",
@@ -53095,8 +53119,14 @@ nodes = (
 "65 209 OFFCURVE",
 "56 199 CURVE SMOOTH",
 "24 163 LINE SMOOTH",
-"14 152 OFFCURVE",
-"13 136 OFFCURVE",
+"20 158 OFFCURVE",
+"17 153 OFFCURVE",
+"17 150 CURVE SMOOTH",
+"17 149 OFFCURVE",
+"18 148 OFFCURVE",
+"19 148 CURVE SMOOTH",
+"22 148 OFFCURVE",
+"27 151 OFFCURVE",
 "36 161 CURVE SMOOTH",
 "44 171 OFFCURVE",
 "106 240 OFFCURVE",
@@ -53115,7 +53145,7 @@ nodes = (
 "52 136 OFFCURVE",
 "25 88 CURVE SMOOTH",
 "19 78 OFFCURVE",
-"15 64 OFFCURVE",
+"14 64 OFFCURVE",
 "10 53 CURVE SMOOTH",
 "7 45 LINE",
 "4 27 OFFCURVE",
@@ -53131,11 +53161,11 @@ nodes = (
 "116 16 OFFCURVE",
 "129 27 CURVE",
 "158 58 LINE SMOOTH",
-"170 69 OFFCURVE",
+"169 70 OFFCURVE",
 "180 82 OFFCURVE",
 "193 93 CURVE SMOOTH",
 "209 108 OFFCURVE",
-"213 118 OFFCURVE",
+"212 119 OFFCURVE",
 "229 134 CURVE SMOOTH",
 "261 163 LINE SMOOTH",
 "263 165 OFFCURVE",
@@ -53149,11 +53179,17 @@ nodes = (
 "110 32 OFFCURVE",
 "61 7 OFFCURVE",
 "51 15 CURVE",
-"47 21 OFFCURVE",
-"45 22 OFFCURVE",
+"49 18 OFFCURVE",
+"47 20 OFFCURVE",
+"47 23 CURVE SMOOTH",
+"47 26 OFFCURVE",
+"49 30 OFFCURVE",
 "52 38 CURVE SMOOTH",
-"56 47 OFFCURVE",
-"46 39 OFFCURVE",
+"55 46 OFFCURVE",
+"48 41 OFFCURVE",
+"48 46 CURVE SMOOTH",
+"48 47 OFFCURVE",
+"49 48 OFFCURVE",
 "49 49 CURVE SMOOTH",
 "57 68 LINE",
 "59 68 LINE",
@@ -53165,8 +53201,11 @@ nodes = (
 "63 81 OFFCURVE",
 "64 82 OFFCURVE",
 "64 83 CURVE",
-"71 83 OFFCURVE",
-"72 89 OFFCURVE",
+"69 83 OFFCURVE",
+"71 86 OFFCURVE",
+"71 89 CURVE SMOOTH",
+"71 91 OFFCURVE",
+"70 93 OFFCURVE",
 "69 95 CURVE",
 "69 96 LINE",
 "72 96 OFFCURVE",
@@ -53187,8 +53226,11 @@ nodes = (
 "103 142 OFFCURVE",
 "103 145 OFFCURVE",
 "103 146 CURVE",
-"109 146 OFFCURVE",
-"122 160 OFFCURVE",
+"108 146 OFFCURVE",
+"119 157 OFFCURVE",
+"119 165 CURVE SMOOTH",
+"119 166 OFFCURVE",
+"119 166 OFFCURVE",
 "119 167 CURVE",
 "149 220 LINE",
 "155 220 OFFCURVE",
@@ -53216,8 +53258,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"458 608 OFFCURVE",
-"451 568 OFFCURVE",
+"434 584 OFFCURVE",
+"440 588 OFFCURVE",
+"443 588 CURVE SMOOTH",
+"446 588 OFFCURVE",
+"447 586 OFFCURVE",
+"447 582 CURVE SMOOTH",
+"447 572 OFFCURVE",
+"439 552 OFFCURVE",
 "425 534 CURVE SMOOTH",
 "416 522 OFFCURVE",
 "409 505 OFFCURVE",
@@ -53239,7 +53287,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"274 184 OFFCURVE",
+"271 182 OFFCURVE",
 "266 179 OFFCURVE",
 "265 179 CURVE SMOOTH",
 "264 179 OFFCURVE",
@@ -53249,8 +53297,8 @@ nodes = (
 "264 171 OFFCURVE",
 "265 171 CURVE SMOOTH",
 "266 171 OFFCURVE",
-"274 179 OFFCURVE",
-"274 181 CURVE SMOOTH"
+"278 182 OFFCURVE",
+"273 182 CURVE SMOOTH"
 );
 }
 );
@@ -73138,9 +73186,9 @@ width = 440;
 );
 },
 {
-color = 3;
+color = 0;
 glyphname = onesuperior;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:32:56 +0000";
 layers = (
 {
 components = (
@@ -73157,9 +73205,9 @@ rightMetricsKey = one;
 unicode = 00B9;
 },
 {
-color = 3;
+color = 0;
 glyphname = twosuperior;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:32:56 +0000";
 layers = (
 {
 components = (
@@ -73176,9 +73224,9 @@ rightMetricsKey = two;
 unicode = 00B2;
 },
 {
-color = 3;
+color = 0;
 glyphname = threesuperior;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:32:56 +0000";
 layers = (
 {
 components = (
@@ -73195,9 +73243,9 @@ rightMetricsKey = three;
 unicode = 00B3;
 },
 {
-color = 3;
+color = 0;
 glyphname = foursuperior;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:32:56 +0000";
 layers = (
 {
 components = (
@@ -91781,9 +91829,9 @@ note = ampersand;
 unicode = 0026;
 },
 {
-color = 3;
+color = 0;
 glyphname = paragraph;
-lastChange = "2021-04-23 03:36:15 +0000";
+lastChange = "2021-06-30 01:48:58 +0000";
 layers = (
 {
 hints = (
@@ -101890,16 +101938,7 @@ unicode = E000;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Cherish-Regular";
-},
-{
-name = postscriptFontName;
-value = "Cherish-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "E8487A59-2E36-4739-8DF2-414A9818920F" = 1;
 };
