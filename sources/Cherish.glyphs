@@ -9,7 +9,8 @@ DisplayStrings = (
 "/obreve óô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave ö/odieresismacron/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohungarumlaut/oinvertedbreve/omacron/oogonek õ/otildemacron º/numero",
 "ÔÓ/Obreve/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/dieresiscomb.case/Odieresismacron/dotaccentcomb.case/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohungarumlaut/Oinvertedbreve/Omacron/Oogonek Õ/Otildemacron",
 "AÁ/Abreve/brevecomb_acutecomb.case/Abreveacute/Abrevedotbelow/Abrevegrave/brevecomb.case/brevecomb_hookabovecomb.case/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
-"ý"
+"ý",
+"aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä/adotbelow à/ahookabove/ainvertedbreve/amacron/aogonek å/aringacute ã"
 );
 classes = (
 {
@@ -85,7 +86,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -56716,7 +56717,7 @@ unicode = 2052;
 {
 color = 3;
 glyphname = divisionslash;
-lastChange = "2021-07-28 12:24:09 +0000";
+lastChange = "2021-08-02 23:55:17 +0000";
 layers = (
 {
 layerId = "E8487A59-2E36-4739-8DF2-414A9818920F";
@@ -56724,33 +56725,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"35.51 -92.391 OFFCURVE",
-"48.513 -84.217 OFFCURVE",
-"50.049 -76.986 CURVE",
-"49.914 -76.134 OFFCURVE",
-"49.644 -74.429 OFFCURVE",
-"48.637 -73.715 CURVE SMOOTH",
+"36 -92 OFFCURVE",
+"49 -84 OFFCURVE",
+"50 -77 CURVE",
+"50 -76 OFFCURVE",
+"50 -74 OFFCURVE",
+"49 -74 CURVE SMOOTH",
 "44 -71 OFFCURVE",
 "42 -66 OFFCURVE",
 "42 -60 CURVE SMOOTH",
 "42 -59 OFFCURVE",
 "42 -58 OFFCURVE",
-"42.451 -57.225 CURVE",
-"44.122 -50.846 OFFCURVE",
-"45.522 -42.763 OFFCURVE",
-"50.275 -33.276 CURVE SMOOTH",
-"58.773 -13.586 OFFCURVE",
-"72.969 9.626 OFFCURVE",
-"90.984 36.936 CURVE SMOOTH",
-"98.216 47.69 OFFCURVE",
-"113.419 70.188 OFFCURVE",
-"138.469 103.854 CURVE SMOOTH",
-"213.683 210.104 OFFCURVE",
-"309.537 332.724 OFFCURVE",
-"424.154 472.292 CURVE SMOOTH",
-"454.902 509.481 OFFCURVE",
-"478.147 537.62 OFFCURVE",
-"494.024 555.858 CURVE SMOOTH",
+"42 -57 CURVE",
+"44 -51 OFFCURVE",
+"46 -43 OFFCURVE",
+"50 -33 CURVE SMOOTH",
+"59 -14 OFFCURVE",
+"73 10 OFFCURVE",
+"91 37 CURVE SMOOTH",
+"98 48 OFFCURVE",
+"113 70 OFFCURVE",
+"138 104 CURVE SMOOTH",
+"214 210 OFFCURVE",
+"310 333 OFFCURVE",
+"424 472 CURVE SMOOTH",
+"455 509 OFFCURVE",
+"478 538 OFFCURVE",
+"494 556 CURVE SMOOTH",
 "500 564 OFFCURVE",
 "503 569 OFFCURVE",
 "503 576 CURVE SMOOTH",
@@ -56759,16 +56760,16 @@ nodes = (
 "491 586 CURVE SMOOTH",
 "489 586 OFFCURVE",
 "488 586 OFFCURVE",
-"485.679 585.981 CURVE SMOOTH",
-"470.859 583.634 OFFCURVE",
-"389.335 483.374 OFFCURVE",
-"242.041 290.588 CURVE SMOOTH",
-"200.045 234.148 OFFCURVE",
-"163.206 184.639 OFFCURVE",
-"131.794 140.357 CURVE SMOOTH",
-"85.782 75.419 OFFCURVE",
-"56.384 29.709 OFFCURVE",
-"43.6 3.227 CURVE SMOOTH",
+"486 586 CURVE SMOOTH",
+"471 584 OFFCURVE",
+"389 483 OFFCURVE",
+"242 291 CURVE SMOOTH",
+"200 234 OFFCURVE",
+"163 185 OFFCURVE",
+"132 140 CURVE SMOOTH",
+"86 75 OFFCURVE",
+"56 30 OFFCURVE",
+"44 3 CURVE SMOOTH",
 "27 -30 OFFCURVE",
 "17 -59 OFFCURVE",
 "17 -81 CURVE SMOOTH",
@@ -56777,7 +56778,7 @@ nodes = (
 "27 -94 CURVE SMOOTH",
 "28 -94 OFFCURVE",
 "29 -93 OFFCURVE",
-"29.408 -93.357 CURVE SMOOTH"
+"29 -93 CURVE SMOOTH"
 );
 }
 );
@@ -79779,5 +79780,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
