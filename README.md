@@ -1,4 +1,8 @@
+# Cherish
+
 A gorgeous dry brush style that adds elegance and sophistication to your design creations. Perfect for captions and short phrases combined with modern sans fonts.
+
+![Sample Image](Documentation/Cherish.png)
 
 ## Building the Fonts
 
